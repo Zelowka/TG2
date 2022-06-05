@@ -55,5 +55,5 @@ class DeleteAccountRequest(TLRequest):
 
     @classmethod
     def from_reader(cls, reader):
-        _reason = reader.tgread_string()
+        _reason = reader.tgread_string() #srdfsdf
         return cls(reason=_reason)
